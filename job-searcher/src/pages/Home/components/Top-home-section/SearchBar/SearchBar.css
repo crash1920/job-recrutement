@@ -1,0 +1,28 @@
+.search-input {
+  background: theme("colors.white.standard");
+  padding: 0 1.25em;
+  font-size: 1em;
+  outline: none;
+  width: 33%;
+  border: none;
+  height: 3.125em;
+  border-top-left-radius: 0.25em;
+  border-bottom-left-radius: 0.25em;
+  font-family: inherit;
+}
+
+.custom-select {
+  padding: 0 0.625em;
+  border: none;
+  height: 3.125em;
+  border-left: 0.063em solid theme("colors.white.40");
+  outline: none;
+  width: 33%;
+  font-size: 0.938em;
+  color: #888;
+  text-align: left;
+  cursor: pointer;
+  padding-left: 0.938em;
+  border-radius: 0.188em;
+  font-family: inherit;
+}

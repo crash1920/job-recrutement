@@ -1,0 +1,14 @@
+.latest-news-info {
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.latest-news-info:hover {
+  transform: translateY(-0.3125rem);
+}
+
+.latest-news-description {
+  padding: 1.875rem;
+  box-shadow: 0 0.125rem 1.375rem 0 rgb(0 0 0 / 5%);
+  background: theme("colors.white.standard");
+}

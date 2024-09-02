@@ -1,0 +1,62 @@
+.form-group input {
+  outline: none;
+  width: 100%;
+  padding: 0.9375rem 1.25rem;
+  font-size: 1rem;
+  color: theme("colors.brown.standard");
+  background-color: theme("colors.white.standard");
+  background-image: none;
+  border: 0.0625rem solid theme("colors.white.30");
+  border-radius: 0.25rem;
+}
+
+.form-group label {
+  justify-content: start;
+  align-self: center;
+  font-size: 1rem;
+  color: theme("colors.gray.800");
+  font-weight: 600;
+  width: 28%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  gap: 0.125rem;
+  width: 100%;
+  margin-bottom: 0.9375rem;
+}
+
+.text-danger {
+  margin-top: 0.3rem;
+}
+
+.input-and-error {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#upload-resume-button {
+  font-size: 1rem;
+  text-align: center;
+  color: theme("colors.white.standard");
+  background: theme("colors.red.10");
+  padding: 0.85rem 0.875rem;
+  display: inline-block;
+  border-radius: 0.25rem;
+  transition-duration: 0.4s;
+  width: 35%;
+}
+
+.register-button {
+  background: theme("colors.black.10");
+  font-size: 1rem;
+  text-align: center;
+  color: theme("colors.white.standard");
+  padding: 0.85rem 0.875rem;
+  display: inline-block;
+  border-radius: 0.25rem;
+  transition-duration: 0.4s;
+  width: 35%;
+}

@@ -1,0 +1,34 @@
+.candidate-card {
+  border: 0.0625rem solid rgba(130, 152, 171, 0.3);
+  padding-top: 2em;
+  border-radius: 0.25rem;
+}
+
+.view-profile-button {
+  font-size: 1rem;
+  text-align: center;
+  color: theme("colors.red.10");
+  background: #fff;
+  padding: 0.625rem 1.25rem;
+  display: inline-block;
+  border-radius: 0.25rem;
+  border: 0.125rem solid theme("colors.red.10");
+  transition: all 0.7s ease;
+  margin-bottom: 1.875rem;
+}
+
+.view-profile-button:hover {
+  background-color: theme("colors.red.10");
+  color: theme("colors.white.30");
+  border: 0.125rem solid  theme("colors.red.10");
+}
+
+.social-grid-column {
+  padding: 1.25rem 0.625rem;
+  display: inline-block;
+  background: theme("colors.white.10");
+  font-size: 1.25rem;
+  border-left: 0.0625rem solid rgba(130, 152, 171, 0.3);
+  border-right: 0.0625rem solid rgba(130, 152, 171, 0.3);
+  border-top: 0.0625rem solid rgba(137, 151, 163, 0.3);
+}

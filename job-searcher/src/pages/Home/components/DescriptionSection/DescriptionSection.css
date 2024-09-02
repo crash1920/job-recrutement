@@ -1,0 +1,9 @@
+.left-content {
+  max-width: 50%;
+  text-align: center;
+}
+
+.right-content {
+  max-width: 50%;
+  display: block;
+}

@@ -1,0 +1,54 @@
+.job-title label {
+  background: rgba(255, 255, 255, 0.16);
+  color: #ddd;
+  padding: 0.3125rem 0.625rem;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.ul-container li {
+  color: theme("colors.white.standard");
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.ul-container svg {
+  margin-right: 0.5rem;
+}
+
+.apply-job-button {
+  padding: 0.95rem 1.875rem;
+}
+
+.apply-linkedin-button {
+  font-size: 1rem;
+  text-align: center;
+  color: theme("colors.white.standard");
+  background: theme("colors.blue.linkedin");
+  padding: 0.95rem 1.875rem;
+  display: inline-block;
+  border-radius: 0.25rem;
+  transition-duration: 0.4s;
+  margin-right: 0.3125rem;
+}
+
+.responsibilities-list li {
+  margin-bottom: 0.5rem;
+}
+
+.skill-requirement {
+  background: theme("colors.white.40");
+  display: inline-block;
+  color: theme("colors.gray.dark");
+  padding: 0.5rem 0.625rem;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid theme("colors.white.20");
+  margin-bottom: 0.3125rem;
+  font-size: 0.9375rem;
+}
+
+.skill-requirement:hover {
+  background: theme("colors.white.standard");
+  transition-duration: 0.7s;
+}

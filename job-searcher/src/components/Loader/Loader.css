@@ -1,0 +1,21 @@
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12.5em;
+}
+
+.loader-spinner {
+  width: 3.125em;
+  height: 3.125em;
+  border: 0.3125em solid rgba(0, 0, 0, 0.1);
+  border-left-color: theme("colors.blue.skyBlue");
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

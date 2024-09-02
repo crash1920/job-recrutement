@@ -1,0 +1,58 @@
+.form-control {
+  margin-top: 0.9125rem;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: theme("colors.brown.standard");
+  background-color: theme("colors.white.standard");
+  background-image: none;
+  border: 0.0625rem solid theme("colors.white.30");
+  border-radius: 0.25rem;
+  padding: 0.6rem 0.25rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  box-sizing: border-box;
+  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.1);
+
+  &:hover,
+  &:focus {
+    border-color: theme("colors.blue.900");
+    box-shadow: 0 0 0.25rem rgba(182, 20, 20, 0.459);
+  }
+}
+
+.education-job-experience label {
+  align-self: center;
+  font-size: 1rem;
+  color: theme("colors.gray.800");
+  font-weight: 600;
+  width: 100%;
+}
+
+.experience-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.experience-form input,
+textarea {
+  outline: none;
+  width: 100%;
+  padding: 0.6rem 0.25rem;
+  font-size: 1rem;
+  color: theme("colors.brown.standard");
+  background-color: theme("colors.white.standard");
+  background-image: none;
+  border: 0.0625rem solid theme("colors.white.30");
+  border-radius: 0.25rem;
+}
+
+.experience-form label {
+  justify-content: start;
+  align-self: center;
+  font-size: 1rem;
+  color: theme("colors.gray.800");
+  font-weight: 600;
+  width: 20%;
+}
